@@ -1,0 +1,19 @@
+# Logs del Proxy
+proxy.log
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Archivos autogenerados locales que contienen credenciales
+proxy-service.bat
+
+# Sistema y Editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

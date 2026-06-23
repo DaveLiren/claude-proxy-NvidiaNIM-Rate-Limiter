@@ -1,0 +1,12 @@
+**Terminal 1 (proxy):**
+```powershell
+cd C:\ClaudeProxy
+.\start-proxy.ps1
+```
+
+**Terminal 2 (Claude):**
+```powershell
+$env:ANTHROPIC_BASE_URL = "http://localhost:9082"
+$env:ANTHROPIC_API_KEY  = "nvapi-TU_KEY_DE_NVIDIA_AQUI"
+
+claude --model deepseek-ai/deepseek-v4-flash
